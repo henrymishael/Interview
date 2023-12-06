@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className='flex lg:flex-col xsm:flex-row xsm:gap-4 lg:gap-12 text-white lg:w-[25%] lg:text-[12px]  xsm:text-[10px] '>
             <Image className='xsm:w-[78px]' src={logo}/>
             <p className='lg:text-[12px]  xsm:text-[10px] '>Gopaddi is a travel network that connects and strengthens people’s relationships with a world of beautiful, happy people who are able to reach out for their dreams and be who they want to be.</p>
-            <p className='tlg:text-[12px]  xsm:text-[10px] '>This network is a community of individuals, families, and organisations who have chosen to take control of their travel desires and freely explore a world of limitless possibilities.</p>
+            <p className='lg:text-[12px]  xsm:text-[10px] '>This network is a community of individuals, families, and organisations who have chosen to take control of their travel desires and freely explore a world of limitless possibilities.</p>
         </div>
         <div className='list-none flex flex-row lg:gap-8 xsm:gap-4 lg:text-[12px]  xsm:text-[10px] xsm:justify-around lg:justify-normal '>
         <span className='flex flex-col lg:gap-4 xsm:gap-2 text-white'>

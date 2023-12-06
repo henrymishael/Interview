@@ -6,8 +6,9 @@ import banner from '@/app/images/bg.png'
 
 export const Section1 = () => {
   return (
-    <div className='flex md:flex-row xsm:flex-col md:justify-center md:min-h-[500px] xsm:min-h-[700px]  xsm:px-12 xsm:mt-48  md:mt-32 md:px-0 xsm:gap-16 md:gap-0 '>
-        <div className='md:w-[40%]  flex flex-col gap-6'>
+    <>
+    <div className='flex md:flex-row xsm:flex-col md:justify-center md:min-h-[500px] xsm:min-h-[700px]  xsm:px-12 xsm:mt-44  md:mt-32 md:px-0 xsm:gap-16 md:gap-0  xsm:w-[150%] md:w-auto'>
+        <div className='md:w-[40%]  flex flex-col gap-6 justify-center'>
             <h1 className='md:text-[60px] xsm:text-[40px] font-bold md:leading-[70px] xsm:leading-[40px] xsm:text-center md:text-left'>Travel Agent <br />For <span className='text-[#0D6EFD]'>What?</span> </h1>
             <p>Enjoy numerous travel benefits and exclusive membership with discounts. Beat the standard and set another with GoPaddi.</p>
             <span className='text-[#0D6EFD] flex flex-row items-center gap-2 xsm:justify-center md:justify-normal'>
@@ -27,5 +28,6 @@ export const Section1 = () => {
             <Image src={banner} />
         </div>
     </div>
+    </>
   )
 }

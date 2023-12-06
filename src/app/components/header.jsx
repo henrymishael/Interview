@@ -75,7 +75,7 @@ export const Header = () => {
                 <p>Mishael</p>
                 <Image onClick={handleClick} className='' src={chevron} />
             </span>
-            <div className={`absolute w-[180px] min-h-[100px] top-14 bg-white ${show ? 'flex' : 'hidden'}   flex-col gap-4 text-[14px] px-3 shadow-md border-black/20 border-[1px] right-[.3rem] border-solid transition-all duration-300 ease-in-out`}>
+            <div className={`absolute w-[180px] min-h-[100px] top-14 bg-white ${show ? 'flex' : 'hidden'}   flex-col gap-4 text-[14px] px-3 shadow-md border-black/20 border-[1px] right-[.3rem] border-solid transition-all duration-300 delay-100 ease-in-out`}>
                 <p className='cursor-pointer'>Profile</p>
                 <p className='cursor-pointer'>Notifications</p>
                 <p className='cursor-pointer'>Settings</p>

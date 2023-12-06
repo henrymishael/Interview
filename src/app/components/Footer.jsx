@@ -5,7 +5,7 @@ import footer from '@/app/images/footer.png'
 
 export const Footer = () => {
   return (
-    <div className='flex flex-row items-center justify-between min-h-[400px]  w-[100%] mt-12 gap-10 bg-[#4A84D6] px-14 py-10'>
+    <div className='flex flex-row items-center justify-between min-h-[400px]  md:w-[100%] xsm:w-[150%] mt-12 gap-10 bg-[#4A84D6] px-14 py-10'>
         <div className='flex flex-col gap-12 text-white w-[25%]'>
             <Image src={logo}/>
             <p className='text-[12px]'>Gopaddi is a travel network that connects and strengthens people’s relationships with a world of beautiful, happy people who are able to reach out for their dreams and be who they want to be.</p>

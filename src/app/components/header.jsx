@@ -34,9 +34,9 @@ export const Header = () => {
     }
 
   return (
-    <header className=' flex flex-row  md:justify-around xsm:justify-between xsm:px-10 md:px-0  h-[80px] items-center  fixed left-0 right-0 top-0 shadow-md bg-white z-[999]'>
+    <header className=' flex flex-row  lg:justify-around xsm:justify-between xsm:px-10 lg:px-0  h-[80px] items-center  fixed left-0 right-0 top-0 shadow-md bg-white z-[999]'>
         <Image className='w-[60px] h-[60px]' src={header} />
-        <nav className='xsm:hidden md:flex flex-row gap-7 text-[14px] items-center pl-32 '> 
+        <nav className='xsm:hidden lg:flex flex-row gap-7 text-[14px] items-center pl-32 '> 
         <div className=' flex flex-col gap-1 pt-2 ' >
             <h7 className='text-[#4a84d6] '>Home</h7>
             <span className='h-1.5 w-1.5 bg-[#4A84D6] rounded-full ml-5'></span>
@@ -69,7 +69,7 @@ export const Header = () => {
             </div>
         </div>
         </nav>
-        <div className='xsm:hidden relative w-[180px]  md:flex flex-row items-center justify-between border-black/20 border-[0.5px] border-solid rounded-md px-2 py-1 group '>
+        <div className='xsm:hidden relative w-[180px]  lg:flex flex-row items-center justify-between border-black/20 border-[0.5px] border-solid rounded-md px-2 py-1 group '>
             <Image className='w-[40px] h-[40px]' src={avatar} alt="" />
             <span className='flex flex-row gap-2'>
                 <p>Mishael</p>
@@ -82,7 +82,7 @@ export const Header = () => {
             </div>
         </div>
 
-        <div className='md:hidden'>
+        <div className='lg:hidden'>
             <HambergerMenu size='36' onClick={handleSideBar} className=''/>
             <div className={`absolute bg-white w-[100%] h-[200vh] ${sidebar ? 'opacity-100 left-0' : 'opacity-0 left-[-20rem]'} top-0  right-0 flex flex-col text-center py-10`}>
                 <div className='absolute right-5'>

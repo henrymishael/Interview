@@ -6,11 +6,11 @@ import banner from '@/app/images/bg.png'
 
 export const Section1 = () => {
   return (
-    <div className='flex flex-row justify-center min-h-[500px]  w-[100%] mt-32'>
-        <div className='w-[40%] flex flex-col gap-6'>
-            <h1 className='text-[60px] font-bold leading-[70px]'>Travel Agent <br />For <span className='text-[#0D6EFD]'>What?</span> </h1>
+    <div className='flex md:flex-row xsm:flex-col md:justify-center md:min-h-[500px] xsm:min-h-[700px]  xsm:px-12 xsm:mt-48  md:mt-32 md:px-0 xsm:gap-16 md:gap-0 '>
+        <div className='md:w-[40%]  flex flex-col gap-6'>
+            <h1 className='md:text-[60px] xsm:text-[40px] font-bold md:leading-[70px] xsm:leading-[40px] xsm:text-center md:text-left'>Travel Agent <br />For <span className='text-[#0D6EFD]'>What?</span> </h1>
             <p>Enjoy numerous travel benefits and exclusive membership with discounts. Beat the standard and set another with GoPaddi.</p>
-            <span className='text-[#0D6EFD] flex flex-row items-center gap-2'>
+            <span className='text-[#0D6EFD] flex flex-row items-center gap-2 xsm:justify-center md:justify-normal'>
                 <h4 className='underline font-bold' >Get Started</h4>
                 <Image className='' src={vec} />
             </span>

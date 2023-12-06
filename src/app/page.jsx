@@ -11,7 +11,7 @@ import { Footer } from './components/Footer'
 
 export default function Home() {
   return (
-    <div className='flex flex-col w-[100%] gap-6 '>
+    <div className='flex flex-col  w-[100%] gap-6 '>
       <Header />
       <Section1/>
       <Section2/>

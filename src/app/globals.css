@@ -24,6 +24,11 @@
   }
 }
 
+*{
+  margin:none;
+  padding:none;
+}
+
 body {
   color: rgb(var(--background-end-rgb));
   background: rgb(var(--foreground-rgb));

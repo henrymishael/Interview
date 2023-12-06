@@ -14,26 +14,26 @@ export const Footer = () => {
         <div className='list-none flex flex-row gap-8  text-[12px]'>
         <span className='flex flex-col gap-4 text-white'>
                 <h4 className='font-semibold text-[14px] '>Quick Links</h4>
-                <li><a href='' />Home</li>
-                <li><a href='' />About Us</li>
-                <li><a href='' />Contact Us</li>
-                <li><a href='' />Terms and Conditions</li>
-                <li><a href='' />Become An Affiliate</li>
+                <li><a href='#' />Home</li>
+                <li><a href='#' />About Us</li>
+                <li><a href='#' />Contact Us</li>
+                <li><a href='#' />Terms and Conditions</li>
+                <li><a href='#' />Become An Affiliate</li>
             </span>
             <span className='flex flex-col gap-4 text-white'>
                 <h4 className='font-semibold text-[14px] '>Business Links</h4>
-                <li><a href='' />GoPal</li>
-                <li><a href='' />GoBusiness</li>
-                <li><a href='' />GoFamily</li>
-                <li><a href='' />GoAgent</li>
-                <li><a href='' />GoSchool</li>
+                <li><a href='#' />GoPal</li>
+                <li><a href='#' />GoBusiness</li>
+                <li><a href='#' />GoFamily</li>
+                <li><a href='#' />GoAgent</li>
+                <li><a href='#' />GoSchool</li>
             </span>
             <span className='flex flex-col gap-4 text-white'>
                 <h4 className='font-semibold text-[14px] '>Business Links</h4>
-                <li><a href='' />Facebook</li>
-                <li><a href='' />Twitter</li>
-                <li><a href='' />Instagram</li>
-                <li><a href='' />Linkedin</li>
+                <li><a href='#' />Facebook</li>
+                <li><a href='#' />Twitter</li>
+                <li><a href='#' />Instagram</li>
+                <li><a href='#' />Linkedin</li>
                 
             </span>
         </div>

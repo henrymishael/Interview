@@ -1,0 +1,49 @@
+"use client";
+import Image from 'next/image'
+import React from 'react'
+import slide1 from '@/app/images/slide1.png'
+import slide2 from '@/app/images/slide2.png'
+import slide3 from '@/app/images/slide3.png'
+
+import  { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+
+// import required modules
+import { Pagination } from 'swiper/modules';
+
+
+export const Section6 = () => {
+  return (
+    <>
+    <Swiper
+        slidesPerView={2.5}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper flex flex-row gap-12 items-center justify-center min-h-[400px]  w-[100%] mt-32 "
+      >
+    <div className='flex flex-row gap-12 items-center justify-center min-h-[500px]  w-[100%] mt-12 '>
+        <div className='relative w-[700px] h-[500px]  rounded-xl'>
+            <SwiperSlide><Image src={slide1}/></SwiperSlide>
+        </div>
+           
+        <div className='w-[700px] h-[500px]  rounded-xl'>
+           <SwiperSlide><Image src={slide3}/></SwiperSlide>
+        </div>
+        <div className='w-[700px] h-[500px]  rounded-xl'>
+        <SwiperSlide><Image src={slide2}/></SwiperSlide>
+        </div>
+    </div>
+    </Swiper>
+    </>
+  )
+}

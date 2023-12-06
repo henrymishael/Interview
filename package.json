@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "iconsax-react": "^0.0.8",
+    "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.5"
+    "react-icons": "^4.11.0",
+    "react-id-swiper": "^4.0.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^10.3.1"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "^10",
     "postcss": "^8",
+    "tailwind-scrollbar": "^3.0.5",
     "tailwindcss": "^3"
   }
 }

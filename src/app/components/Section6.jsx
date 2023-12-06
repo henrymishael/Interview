@@ -16,7 +16,7 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 export const Section6 = () => {
@@ -25,10 +25,15 @@ export const Section6 = () => {
     <Swiper
         slidesPerView={2.5}
         spaceBetween={30}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper flex flex-row gap-12 items-center justify-center min-h-[400px]  w-[100%] mt-32 "
       >
     <div className='flex flex-row gap-12 items-center justify-center min-h-[500px]  w-[100%] mt-12 '>
@@ -41,6 +46,12 @@ export const Section6 = () => {
         </div>
         <div className='w-[700px] h-[500px]  rounded-xl'>
         <SwiperSlide><Image src={slide2}/></SwiperSlide>
+        </div>
+        <div className='relative w-[700px] h-[500px]  rounded-xl'>
+            <SwiperSlide><Image src={slide1}/></SwiperSlide>
+        </div>
+        <div className='w-[700px] h-[500px]  rounded-xl'>
+           <SwiperSlide><Image src={slide3}/></SwiperSlide>
         </div>
     </div>
     </Swiper>

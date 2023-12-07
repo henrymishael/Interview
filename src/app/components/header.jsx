@@ -43,7 +43,17 @@ export const Header = () => {
         </div>
         <div className='relative flex flex-row justify-center gap-2'>
         <h7 className='effect '>Solutions</h7>
-        <Image onClick={handleClick1} src={chevron}/>
+        {!show1 ? (
+                <Image 
+                //onMouseEnter={handleClick2}
+                onClick={handleClick1} 
+                className='' src={chevron} />) :
+                (
+                    <Image 
+                
+                onClick={handleClick1} 
+                className=' rotate-90 transition-all duration-500 ease-in-out' src={chevron} />
+                )}
         <div className={`absolute w-[140px] min-h-[100px] top-14 bg-white ${show1 ? 'flex' : 'hidden'}   flex-col gap-4 text-[14px] px-3 shadow-md border-black/20 border-[1px] right-[.3rem] border-solid transition-all duration-300 ease-in-out text-[#4a84d6] font-medium`}>
                 <p className='cursor-pointer'>GoPal</p>
                 <p className='cursor-pointer'>GoSchool</p>
@@ -52,7 +62,17 @@ export const Header = () => {
         </div>
         <div className='relative flex flex-row gap-2'>
         <h7 className='effect '>Products</h7>
-        <Image onClick={handleClick2} src={chevron}/>
+        {!show2 ? (
+                <Image 
+                //onMouseEnter={handleClick2}
+                onClick={handleClick2} 
+                className='' src={chevron} />) :
+                (
+                    <Image 
+                
+                onClick={handleClick2} 
+                className=' rotate-90 transition-all duration-500 ease-in-out' src={chevron} />
+                )}
         <div className={`absolute w-[140px] min-h-[100px] top-14 bg-white ${show2 ? 'flex' : 'hidden'}   flex-col gap-4 text-[14px] px-3 shadow-md border-black/20 border-[1px] right-[.3rem] border-solid transition-all duration-300 ease-in-out text-[#4a84d6] `}>
                 <p className='cursor-pointer'>Paddilife</p>
                 <p className='cursor-pointer'>Simplessia</p>
@@ -61,7 +81,17 @@ export const Header = () => {
         </div>
         <div className='relative flex flex-row gap-2'>
         <h7 className='effect '>Company</h7>
-        <Image onClick={handleClick3} src={chevron}/>
+        {!show3 ? (
+                <Image 
+                //onMouseEnter={handleClick3}
+                onClick={handleClick3} 
+                className='' src={chevron} />) :
+                (
+                    <Image 
+                
+                onClick={handleClick3} 
+                className=' rotate-90 transition-all duration-500 ease-in-out' src={chevron} />
+                )}
         <div className={`absolute w-[140px] min-h-[100px] top-14 bg-white ${show3 ? 'flex' : 'hidden'}   flex-col gap-4 text-[14px] px-3 shadow-md border-black/20 border-[1px] right-[.3rem] border-solid transition-all duration-300 ease-in-out text-[#4a84d6]`}>
                 <p className='cursor-pointer'>Blog</p>
                 <p className='cursor-pointer'>Careers</p>
@@ -73,7 +103,18 @@ export const Header = () => {
             <Image className='w-[40px] h-[40px]' src={avatar} alt="" />
             <span className='flex flex-row gap-2'>
                 <p>Mishael</p>
-                <Image onClick={handleClick} className='' src={chevron} />
+
+                {!show ? (
+                <Image 
+                //onMouseEnter={handleClick}
+                onClick={handleClick} 
+                className='' src={chevron} />) :
+                (
+                    <Image 
+                
+                onClick={handleClick} 
+                className=' rotate-90 transition-all duration-500 ease-in-out' src={chevron} />
+                )}
             </span>
             <div className={`absolute w-[180px] min-h-[100px] top-14 bg-white ${show ? 'flex' : 'hidden'}   flex-col gap-4 text-[14px] px-3 shadow-md border-black/20 border-[1px] right-[.3rem] border-solid transition-all duration-300 delay-100 ease-in-out`}>
                 <p className='cursor-pointer'>Profile</p>

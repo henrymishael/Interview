@@ -38,7 +38,7 @@ export const Section6 = () => {
       >
     <div className='flex flex-row gap-12 items-center justify-center min-h-[500px]  w-[100%] mt-12 '>
         <div className='relative w-[700px] h-[500px]  rounded-xl '>
-            <SwiperSlide><Image src={slide1}/></SwiperSlide>
+            <SwiperSlide className=''><Image src={slide1}/></SwiperSlide>
         </div>
            
         <div className='w-[700px] h-[500px]  rounded-xl'>

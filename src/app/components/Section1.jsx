@@ -12,7 +12,7 @@ export const Section1 = () => {
             <h1 className='lg:text-[60px] xsm:text-[40px] font-bold lg:leading-[70px] xsm:leading-[40px] xsm:text-center lg:text-left'>Travel Agent <br />For <span className='text-[#0D6EFD]'>What?</span> </h1>
             <p>Enjoy numerous travel benefits and exclusive membership with discounts. Beat the standard and set another with GoPaddi.</p>
             <span className='text-[#0D6EFD] flex flex-row items-center gap-2 xsm:justify-center lg:justify-normal'>
-                <h4 className='underline font-bold' >Get Started</h4>
+                <h4 className='underline underline-offset-4 font-bold' >Get Started</h4>
                 <Image className='' src={vec} />
             </span>
             <span className='flex flex-row gap-2'>

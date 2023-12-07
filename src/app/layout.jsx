@@ -1,7 +1,7 @@
-import { Manrope } from 'next/font/google'
+import { Syne } from 'next/font/google'
 import './globals.css'
 
-const manrope = Manrope({ subsets: ['latin'] })
+const syne = Syne({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'GoPaddi',
@@ -11,7 +11,7 @@ export const metadata = {
 function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='flex justify-center max-w-[1500px]'>{children}</body>
+      <body className={` ${syne.className} flex justify-center max-w-[1500px]`}>{children}</body>
     </html>
   )
 }

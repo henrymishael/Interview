@@ -34,14 +34,14 @@ export const Header = () => {
     }
 
   return (
-    <header className=' flex flex-row  lg:justify-around xsm:justify-between xsm:px-10 lg:px-0  h-[80px] items-center  fixed left-0 right-0 top-0 shadow-md bg-white z-[999]'>
+    <header className=' flex flex-row  xsm:justify-between xsm:px-10 lg:px-12  h-[80px] items-center   fixed left-0 right-0 top-0 shadow-md bg-white z-[999] max-w-[1500px] '>
         <Image className='w-[60px] h-[60px]' src={header} />
         <nav className='xsm:hidden lg:flex flex-row gap-7 text-[14px] items-center pl-32 '> 
-        <div className=' flex flex-col gap-1 ' >
-            <h7 id='active' className=' '>Home</h7>
-            {/* <span className='h-1.5 w-1.5 bg-[#4A84D6] rounded-full ml-5'></span> */}
+        <div className='cursor-pointer flex flex-col gap-1 pt-2.5' >
+            <h7 className=' text-[#4a84d6]'>Home</h7>
+            <span className='h-1.5 w-1.5 bg-[#4A84D6] rounded-full ml-5'></span>
         </div>
-        <div className='relative flex flex-row justify-center gap-2'>
+        <div className='relative flex flex-row justify-center gap-2 cursor-pointer'>
         <h7 className='effect '>Solutions</h7>
         {!show1 ? (
                 <Image 
@@ -60,7 +60,7 @@ export const Header = () => {
                 <p className='cursor-pointer'>GoFamily</p>
             </div>
         </div>
-        <div className='relative flex flex-row gap-2'>
+        <div className='cursor-pointer relative flex flex-row gap-2'>
         <h7 className='effect '>Products</h7>
         {!show2 ? (
                 <Image 
@@ -79,7 +79,7 @@ export const Header = () => {
                 <p className='cursor-pointer'>Others</p>
             </div>
         </div>
-        <div className='relative flex flex-row gap-2'>
+        <div className='cursor-pointer relative flex flex-row gap-2'>
         <h7 className='effect '>Company</h7>
         {!show3 ? (
                 <Image 

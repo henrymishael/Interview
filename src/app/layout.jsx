@@ -1,7 +1,7 @@
-import { Syne } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
-const syne = Syne({ subsets: ['latin'] })
+const syne = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'GoPaddi',
@@ -11,7 +11,7 @@ export const metadata = {
 function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` ${syne.className} flex justify-center max-w-[1500px]`}>{children}</body>
+      <body className={` ${syne.className} flex  justify-center   `}>{children}</body>
     </html>
   )
 }

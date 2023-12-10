@@ -32,7 +32,7 @@
 body {
   color: rgb(var(--background-end-rgb));
   background: rgb(var(--foreground-rgb));
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 * {
@@ -280,6 +280,10 @@ select:hover > button {
   background: linear-gradient(180deg, #EDF4FF 0%, rgba(237, 244, 255, 0.00) 100%);
 }
 
+.section6 {
+  background: linear-gradient(4deg, #EDF4FF 3.1%, rgba(237, 244, 255, 0.00) 104.11%);
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -304,10 +308,11 @@ select:hover > button {
 
 .swiper-slide {
   width: 80%;
+  cursor: pointer;
   
 }
-.swiper-slide img:hover {
-  transform: translateY(-1.1);
+.swiper-slide:hover {
+  transform: scaleY(-1.1);
   animation:transition-all 500ms ease-in-out;
 
 }
@@ -331,6 +336,7 @@ select:hover > button {
   left: 0;
   width: 0;
   height: 2px;
+  border-radius: 100%;
   background-color: #0D6EFD;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
@@ -399,4 +405,8 @@ button:hover::before {
 
 .rotate-90 {
   transform: rotate(180deg);
+}
+
+a {
+  cursor: pointer;
 }

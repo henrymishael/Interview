@@ -4,7 +4,7 @@ import cycle from '@/app/images/cycle.png'
 
 export const Section5 = () => {
   return (
-    <div className='section6 flex lg:flex-row xsm:flex-col items-center justify-center gap-16 xsm:min-h-[40rem] lg:min-h-[80vh] lg:w-[100%] xsm:w-[150%] lg:mt-12 xsm:mt-44 xsm:px-12 lg:px-20'>
+    <div className='section6 flex lg:flex-row xsm:flex-col items-center justify-center gap-16 xsm:min-h-[40rem] lg:min-h-[70vh] lg:w-[100%] xsm:w-[150%] lg:mt-12 xsm:mt-44 xsm:px-12 lg:px-20'>
         <div className='lg:w-[55rem] flex flex-col gap-4 ml-8 xsm:text-center lg:text-left'>
         <p className='text-[#0D6EFD] font-bold'>GoSchool</p>
         <h5 className='text-black/80 lg:text-[32px] xsm:text-[30px] font-semibold xsm:leading-[32px] lg:leading-[45px]'>Explore Endless Global <br />Academic Possibilities</h5>

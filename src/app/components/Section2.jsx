@@ -4,11 +4,11 @@ import map from '@/app/images/map2.svg'
 
 function Section2() {
   return (
-    <div className='section2 flex lg:flex-row xsm:flex-col md:items-center md:justify-center  xsm:gap-16 lg:gap-0 xsm:min-h-[700px] lg:min-h-[400px]  lg:w-[100%] xsm:w-[150%] lg:mt-16 xsm:mt-44 xsm:px-12 lg:px-12'> 
-      <div className='lg:w-[1000px]'>
+    <div className='section2 flex lg:flex-row xsm:flex-col md:items-center md:justify-center  xsm:gap-16 lg:gap-0 xsm:min-h-[40rem] lg:min-h-[30rem]  lg:w-[100%] xsm:w-[150%] lg:mt-16 xsm:mt-44 xsm:px-12 lg:px-12'> 
+      <div className='lg:w-[60rem]'>
         <Image src={map} />
       </div>
-      <div className='lg:w-[900px]  flex flex-col gap-1 xsm:text-center lg:text-left lg:pl-32'>
+      <div className='lg:w-[55rem]  flex flex-col gap-1 xsm:text-center lg:text-left lg:pl-32'>
         <p className='text-[#0D6EFD] font-bold '>Gopal</p>
         <h5 className='text-black/80 xsm:text-[30px] md:text-[32px] font-semibold md:leading-[45px] xsm:leading-[30px] '>Connect your World <br />From Here!</h5>
         <div className='flex flex-row gap-6 mt-10 text-[#0d6efd] font-semibold xsm:justify-center lg:justify-normal '>

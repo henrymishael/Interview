@@ -36,13 +36,13 @@ export const Section6 = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper flex flex-row gap-12 items-center justify-center md:min-h-[400px] xsm:min-h-[250px]  lg:w-[100%] xsm:w-[150%]   xsm:mt-44 md:mt-12 "
+        className="mySwiper flex flex-row gap-12 items-center justify-center md:min-h-[25rem] xsm:min-h-[15rem]  lg:w-[100%] xsm:w-[150%]   xsm:mt-44 md:mt-12 "
       >
         
-    <div className='flex flex-row gap-12 min-h-[500px]  w-[100%] mt-12 '>
+    <div className='flex flex-row gap-12 min-h-[32rem]  w-[100%] mt-12 '>
         <div className='w-[700px] lg:h-[500px] xsm:h-[300px]   rounded-xl  '>
             <SwiperSlide className='group'><Image src={slide1}/>
-            <div className='absolute xsm:bottom-24 md:bottom-20 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl '> 
+            <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl '> 
             <div className='flex flex-row items-center gap-4 mb-4'> 
            <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black  '>Get Started</button>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
@@ -57,7 +57,7 @@ export const Section6 = () => {
         <div className='w-[700px] lg:h-[500px] xsm:h-[300px]  rounded-xl group'>
            <SwiperSlide className='group'>
             <Image src={slide3}/>
-           <div className='absolute bottom-16 opacity-0 group-hover:bottom-20 group-hover:opacity-100 transition-all ease-in-out duration-300 '>
+           <div className='absolute bottom-12 opacity-0 group-hover:bottom-16 group-hover:opacity-100 transition-all ease-in-out duration-300 '>
            <button className='px-6 py-2.5 rounded-md bg-white/60 border-[1px] text-black left-6'>Get Started</button>
            </div>
            </SwiperSlide>
@@ -65,7 +65,7 @@ export const Section6 = () => {
         <div className='w-[700px] lg:h-[500px] xsm:h-[300px]  rounded-xl group relative'>
         <SwiperSlide className='group'>
           <Image className='' src={slide2}/>
-          <div className='absolute xsm:bottom-24 md:bottom-20 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl'> 
+          <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl'> 
             <div className='flex flex-row items-center gap-4 pb-4'> 
            <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black '>Get Started</button>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
@@ -80,14 +80,14 @@ export const Section6 = () => {
         <div className='lg:h-[500px] xsm:h-[300px]  rounded-xl group'>
            <SwiperSlide className='group'>
             <Image src={slide3}/>
-            <div className='absolute bottom-16 opacity-0 group-hover:bottom-20 group-hover:opacity-100 transition-all ease-in-out duration-300 '>
+            <div className='absolute bottom-12 opacity-0 group-hover:bottom-16 group-hover:opacity-100 transition-all ease-in-out duration-300 '>
            <button className='px-6 py-2.5 rounded-md bg-white/60 border-[1px] text-black left-6 '>Get Started!</button>
            </div>
             </SwiperSlide>
         </div>
         <div className='lg:h-[500px] xsm:h-[300px]  rounded-xl group'>
             <SwiperSlide className='group'><Image src={slide1}/>
-            <div className='absolute xsm:bottom-24 md:bottom-20 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-center justify-between w-[100%] left-6 '> 
+            <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-center justify-between w-[100%] left-6 '> 
             <div className='flex xsm:flex-col md:flex-row items-center pb-4 gap-4'> 
            <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black '>Get Started</button>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>

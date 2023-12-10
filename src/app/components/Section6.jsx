@@ -43,13 +43,13 @@ export const Section6 = () => {
         <div className='w-[44rem] lg:h-[31rem] xsm:h-[19rem]   rounded-xl  '>
             <SwiperSlide className='group'><Image src={slide1}/>
             <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl '> 
-            <div className='flex flex-row items-center gap-4 mb-4'> 
-           <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black  '>Get Started</button>
+            <div className='xsm:hidden md:flex flex-row items-center xsm:gap-1 lg:gap-4 mb-4'> 
+           <button className='md:px-3 md:py-2.5 xsm:px-2 xsm:py-1.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</button>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
-           <h2 className='text-white'>Activities</h2>
+           <h2 className='text-white xsm:text-[10px] md:text-[14px]'>Activities</h2>
            <Image className='h-[24px] w-[24px]' src={cycle} />
            </div>
-           <Image className='opacity-70 w-[100px] mb-4' src={logo}/>
+           <Image className='opacity-70 xsm:w-[50px] md:w-[100px] mb-4' src={logo}/>
            </div>
             </SwiperSlide>
         </div>
@@ -66,13 +66,13 @@ export const Section6 = () => {
         <SwiperSlide className='group'>
           <Image className='' src={slide2}/>
           <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl'> 
-            <div className='flex flex-row items-center gap-4 pb-4'> 
-           <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black '>Get Started</button>
+            <div className='xsm:hidden md:flex flex-row items-center gap-4 pb-4'> 
+           <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</button>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
-           <h2 className='text-white'>Flight</h2>
+           <h2 className='text-white xsm:text-[10px] md:text-[14px]'>Flight</h2>
            <Image className='h-[24px] w-[24px]' src={flight} />
            </div>
-           <Image className='opacity-70 w-[100px] pb-4' src={logo}/>
+           <Image className='opacity-70 xsm:w-[50px] md:w-[100px] pb-4' src={logo}/>
            </div>
           </SwiperSlide>
         </div>
@@ -88,13 +88,13 @@ export const Section6 = () => {
         <div className='w-[44rem] lg:h-[31rem] xsm:h-[19rem]rounded-xl group'>
             <SwiperSlide className='group'><Image src={slide1}/>
             <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-center justify-between w-[100%] left-6 '> 
-            <div className='flex xsm:flex-col md:flex-row items-center pb-4 gap-4'> 
-           <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black '>Get Started</button>
+            <div className='xsm:hidden md:flex xsm:flex-col md:flex-row items-center pb-4 gap-4'> 
+           <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</button>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
-           <h2 className='text-white'>Activities</h2>
+           <h2 className='text-white xsm:text-[10px] md:text-[14px]'>Activities</h2>
            <Image className='h-[24px] w-[24px]' src={cycle} />
            </div>
-           <Image className='opacity-70 w-[100px] pb-4' src={logo}/>
+           <Image className='opacity-70 xsm:w-[50px] md:w-[100px] pb-4' src={logo}/>
            </div>
             </SwiperSlide>
         </div>

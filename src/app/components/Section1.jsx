@@ -10,10 +10,10 @@ import banner from '@/app/images/bounce.svg'
 export const Section1 = () => {
   return (
     <>
-    <div className='flex lg:flex-row xsm:flex-col md:justify-center md:items-center lg:min-h-[33rem] xsm:min-h-[40rem]  xsm:px-12 xsm:mt-52 lg:mt-32  lg:px-12 xsm:gap-16 lg:gap-0  xsm:w-[150%] lg:w-[100%] '>
+    <div className='flex lg:flex-row xsm:flex-col md:justify-center md:items-center lg:min-h-[80vh] xsm:min-h-[40rem]  xsm:px-12 xsm:mt-52 lg:mt-32  lg:px-12 xsm:gap-16 lg:gap-0  xsm:w-[150%] lg:w-[100%] '>
         <div className='lg:w-[55rem]  flex flex-col gap-6 justify-center'>
             <h1 className='lg:text-[55px] xsm:text-[40px] font-bold lg:leading-[65px] xsm:leading-[40px] xsm:text-center lg:text-left'>Travel Agent <br />For <span className='text-[#0D6EFD]'>What?</span> </h1>
-            <p className='text-[12px] xsm:text-center lg:text-left  lg:w-[70%]'>Enjoy numerous travel benefits and exclusive membership with discounts. Beat the standard and set another with GoPaddi.</p>
+            <p className='text-[12px] xsm:text-center lg:text-left  lg:w-[70%]'>Enjoy numerous travel benefits and exclusive membership with <br />discounts. Beat the standard and set another with GoPaddi.</p>
             <span className='text-[#0D6EFD] flex flex-row items-center gap-2 xsm:justify-center lg:justify-normal'>
                 <h4 className='underline underline-offset-4 font-extrabold' >Get Started</h4>
                 <Image className='' src={vec} />

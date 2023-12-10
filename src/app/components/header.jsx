@@ -34,7 +34,7 @@ export const Header = () => {
     }
 
   return (
-    <header className=' flex flex-row  xsm:justify-between xsm:px-10 lg:px-12  h-[80px] items-center   fixed left-0 right-0 top-0 shadow-md bg-white z-[999] max-w-[1500px] '>
+    <header className=' flex flex-row  xsm:justify-between xsm:px-10 lg:px-20  h-[80px] items-center   fixed left-0 right-0 top-0 shadow-md bg-white z-[999] max-w-[1500px] '>
         <Image className='w-[60px] h-[60px]' src={header} />
         <nav className='xsm:hidden lg:flex flex-row gap-7 text-[14px] items-center pl-32 '> 
         <div className='cursor-pointer flex flex-col gap-1 pt-2.5' >

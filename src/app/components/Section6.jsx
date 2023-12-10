@@ -36,7 +36,7 @@ export const Section6 = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper flex flex-row gap-12 items-center justify-center md:min-h-[27rem] xsm:min-h-[15rem]  lg:w-[100%] xsm:w-[150%]   xsm:mt-44 md:mt-20  "
+        className="mySwiper flex flex-row gap-12 items-center justify-center lg:min-h-[27rem] xsm:min-h-[15rem]  lg:w-[100%] xsm:w-[150%]   xsm:mt-44 md:mt-20  "
       >
         
     <div className='flex flex-row gap-12 min-h-[32rem]  w-[100%] md:mt-20 '>

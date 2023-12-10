@@ -27,7 +27,7 @@ export const Section1 = () => {
                 <p className='text-[10px]'>Join over 1000 people who are already enjoying these benefits</p>
             </span>
         </div>
-        <div className='lg:w-[60rem]'>
+        <div className='lg:w-[70rem]'>
             <Image className=' animate-bounce' src={banner} />
         </div>
     </div>

@@ -6,7 +6,7 @@ import chevron from '../images/arrowch.svg'
 import Image from 'next/image'
 import avatar from '../images/avatar.png'
 import header from '../images/header.png'
-import { Sidebar } from './SideBar';
+
 
 
 

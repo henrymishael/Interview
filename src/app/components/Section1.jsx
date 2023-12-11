@@ -28,7 +28,8 @@ export const Section1 = () => {
             </span>
         </div>
         <div className='lg:w-[70rem]'>
-            <Image className=' animate-bounce' src={banner} />
+            <Image className=' animate-bounce' src={banner}
+             />
         </div>
     </div>
     </>

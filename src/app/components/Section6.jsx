@@ -1,12 +1,14 @@
 "use client";
 import Image from 'next/image'
 import React from 'react'
-import slide1 from '@/app/images/slide1.png'
-import slide2 from '@/app/images/slide2.png'
-import slide3 from '@/app/images/slide3.svg'
-import logo from '@/app/images/logo.png'
-import cycle from '@/app/images/cycling.png'
-import flight from '@/app/images/flight.png'
+import slide1 from '../images/slide1.png'
+import slide2 from '../images/slide2.png'
+import slide3 from '../images/slide3.svg'
+import logo from '../images/logo.png'
+import cycle from '../images/cycling.png'
+import flight from '../images/flight.png'
+
+
 import  { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -22,6 +24,8 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 export const Section6 = () => {
+ 
+
   return (
     <>
     <Swiper
@@ -44,7 +48,7 @@ export const Section6 = () => {
             <SwiperSlide className='group'><Image src={slide1}/>
             <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl '> 
             <div className='xsm:hidden md:flex flex-row items-center xsm:gap-1 lg:gap-4 mb-4'> 
-           <button className='md:px-3 md:py-2.5 xsm:px-2 xsm:py-1.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</button>
+           <div className='button md:px-3 md:py-2.5 xsm:px-2 xsm:py-1.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</div>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
            <h2 className='text-white xsm:text-[10px] md:text-[14px]'>Activities</h2>
            <Image className='h-[24px] w-[24px]' src={cycle} />
@@ -67,7 +71,7 @@ export const Section6 = () => {
           <Image className='' src={slide2}/>
           <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-end justify-between w-[100%] h-[100%] pl-6   rounded-xl'> 
             <div className='xsm:hidden md:flex flex-row items-center gap-4 pb-4'> 
-           <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</button>
+           <div className='button px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</div>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
            <h2 className='text-white xsm:text-[10px] md:text-[14px]'>Flight</h2>
            <Image className='h-[24px] w-[24px]' src={flight} />
@@ -89,7 +93,7 @@ export const Section6 = () => {
             <SwiperSlide className='group'><Image src={slide1}/>
             <div className='absolute xsm:bottom-20 md:bottom-16 opacity-100  transition-all ease-in-out duration-300 flex flex-row items-center justify-between w-[100%] left-6 '> 
             <div className='xsm:hidden md:flex xsm:flex-col md:flex-row items-center pb-4 gap-4'> 
-           <button className='px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</button>
+           <div className='button px-3 py-2.5 rounded-md bg-white/60  border-[1px] text-black xsm:text-[10px] md:text-[14px] '>Get Started</div>
            <span className='h-2 w-2 rounded-full bg-white ml-2'></span>
            <h2 className='text-white xsm:text-[10px] md:text-[14px]'>Activities</h2>
            <Image className='h-[24px] w-[24px]' src={cycle} />

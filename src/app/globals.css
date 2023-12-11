@@ -81,27 +81,9 @@ body {
   padding: 16px; /* Adjust padding to your liking */
 }
 
-/* Style the down arrow */
-.select-wrapper > button {
-  content: '\25BC'; /* Unicode character for down arrow */
-  position: absolute;
-  top: 50%;
-  outline:none;
-  border:none;
-  border-radius: 8px;
-  right: 10px; /* Adjust right spacing */
-  transform: translateY(-50%);
-  background-color: #000;
-  pointer-events: none; /* Ensures the arrow doesn't interfere with clicking the select box */
-}
 
-select > button { 
-  --foreground-image:url(stock:chevron-down); /* that arrow */
-}
 
-select:hover > button {
-  fill:red; 
-}
+
 
 .custom-box-shadow {
   box-shadow: 8px 8px 20px 0px rgba(201, 199, 199, 0.19);
@@ -220,7 +202,7 @@ select:hover > button {
 .blank{
   background: #fff;
   color:#737876;
-}
+} */
 
 .card{
   box-shadow: 8px 8px 20px 0px rgba(201, 199, 199, 0.19);
@@ -356,9 +338,9 @@ h7 {
   cursor:pointer;
 }
 
-button {
+.button {
   outline: none;
-  background: white;
+
 
   position: relative;
   cursor: pointer;
@@ -366,7 +348,7 @@ button {
   z-index: 400;
 }
 
-button::before {
+.button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -378,11 +360,11 @@ button::before {
   z-index: -1
 }
 
-button:hover {
+.button:hover {
   color: white;
 }
 
-button:hover::before {
+.button:hover::before {
   left: 0;
   z-index: -1;
 
@@ -408,5 +390,91 @@ button:hover::before {
 }
 
 a {
+  cursor: pointer;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  /* left: 2rem; */
+  bottom: 0;
+  width: 100%;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:200vh; 
+  background: #fff;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 28px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+/* ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 25px;
+  position: absolute;
+  top: 100px;
+  width: 230px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+} */
+
+.icon-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex: 40px 0;
+  margin-right: 20px;
+}
+
+.text-placeholder {
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  flex: 1;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }

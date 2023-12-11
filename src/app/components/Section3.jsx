@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import radial from '@/app/images/section3.svg'
+import radial from '../images/section3.svg'
 
 export const Section3 = () => {
   return (
@@ -9,7 +9,7 @@ export const Section3 = () => {
         <p className='text-[#0D6EFD] font-bold'>GoFamily</p>
         <h5 className='text-black/80 lg:text-[32px] xsm:text-[30px] font-semibold xsm:leading-[32px] lg:leading-[45px] lg:w-[450px]'>Happy Families Plan Travel goals Together</h5>
         <div className='flex flex-row gap-6 mt-10 text-[#0d6efd] font-semibold xsm:justify-center lg:justify-normal'>
-            <button className='px-6 py-2.5 border-[1px] border-solid bg-[#0d6efd] text-white  rounded-md '>Get Started</button>
+            <div className='button px-6 py-2.5 border-[1px] border-solid bg-[#0d6efd]  text-white  rounded-md '>Get Started</div>
             <p className='px-6 py-2.5 underline underline-offset-4'> Learn More</p>
         </div>
       </div>
